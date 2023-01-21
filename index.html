@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Biker</title>
     <link rel="stylesheet" href="syles/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/custom.css" />
+    <script src="https://kit.fontawesome.com/75ca3aa350.js" crossorigin="anonymous"></script>
   </head>
   <body class="container-lg">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -49,7 +50,10 @@
     </nav>
 
     <!-- slider -->
-    <div id="carouselExampleDark" class="carousel carousel-dark slide bg-danger-subtle bg-opacity-20 rounded p-5">
+    <div
+      id="carouselExampleDark"
+      class="carousel carousel-dark slide bg-danger-subtle bg-opacity-20 rounded p-5"
+    >
       <div class="carousel-indicators">
         <button
           type="button"
@@ -146,7 +150,10 @@
         data-bs-target="#carouselExampleDark"
         data-bs-slide="prev"
       >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span
+          class="carousel-control-prev-icon bz-light-blue"
+          aria-hidden="true"
+        ></span>
         <span class="visually-hidden">Previous</span>
       </button>
       <button
@@ -159,6 +166,141 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
+
+    <!-- main -->
+    <main>
+      <section class="text-start text-md-center mt-5">
+        <h1>Hot Bikes in This Year</h1>
+        <p class="text-danger">Best Bike Collectionss</p>
+        <hr class="w-25 mx-auto border-danger" />
+        <div class="row g-5 mt-4 row-cols-1 row-cols-sm-2 row-cols-md-3 px-5">
+          <div class="col">
+            <img class="w-100" src="images/feature-bike.jpg" alt="" />
+          </div>
+          <div class="col">
+            <img class="w-75" src="images/feature-bike.jpg" alt="" />
+          </div>
+          <div class="col">
+            <img class="w-100" src="images/feature-bike.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!-- new arroval section -->
+      <section class="bg-info bg-opacity-25 rounded py-5">
+        <h1 class="text-center mt-4 mb-5">New Arrival</h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100 rounded-5">
+              <img src="images/bike-1.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+              <div class="card-footer">
+                <button class="btn btn-outline-danger">Purchase</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 rounded-5">
+              <img src="images/bike-2.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This card has supporting text below as a natural lead-in to
+                  additional content.
+                </p>
+              </div>
+              <div class="card-footer">
+                <button class="btn btn-outline-danger">Purchase</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 rounded-5">
+              <img src="images/bike-3.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This card has even longer
+                  content than the first to show that equal height action.
+                </p>
+              </div>
+              <div class="card-footer">
+                <button class="btn btn-outline-danger">Purchase</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- happy client section -->
+      <section mt-5>
+        <h1 class="text-center py-5">Happy <span class="text-danger">clients</span></h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100 text-center">
+              <img class="w-25 mx-auto mt-3" src="images/user-3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="text-warning">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                  <h5 class="text-primary">Michael Draper</h5>
+                  <p>Doctor, USA</p>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 text-center">
+              <img class="w-25 mx-auto mt-3"  src="images/user-1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                <p class="text-warning">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                  <h5 class="text-primary">Michael Draper</h5>
+                  <p>Doctor, USA</p>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 text-center">
+              <img class="w-25 mx-auto mt-3"  src="images/user-2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                <p class="text-warning">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                  <h5 class="text-primary">Michael Draper</h5>
+                  <p>Doctor, USA</p>
+                </p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+    </main>
     <!-- JS file -->
     <script src="js/bootstrap.min.js"></script>
   </body>
